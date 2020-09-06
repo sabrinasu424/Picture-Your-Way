@@ -1,5 +1,4 @@
 # Picture-Your-Way
-#### Meng-Tien Tsai, Jia-yu Chang, Sabrina Yihua Su, Meng-Yun Duh, Yu-Ting Wang, Chien-Hung Shih
 #### Building a picture based attraction recommendation system by combing LDA and K-Means in the structure of Scatter/Gather
 [Webpage](http://35.201.182.2/main/index_b.php) | [3-minute demo/introduction](https://www.youtube.com/watch?v=Hjomt424dHA&feature=youtu.be)
 ### Abstract
@@ -19,7 +18,7 @@ We leveraged the information of attractions listed in the governement open touri
 * [K-means Clustering](https://projecteuclid.org/download/pdf_1/euclid.bsmsp/1200512992): A unsupervised learning algorithm that provides instant clustering in this system. Under evaluation, it was proven feasible to extract the topic distribution from LDA for each tourist spot as the attributes in euclidean distance calcuation in K-means. This replaces the tradition sparse term-document matrix and reduces the time and space cost.
 * [Elo Rating System](https://en.wikipedia.org/wiki/Elo_rating_system): A picture ranking algorithm inspired by the film, The Social Network (2010). Considering aesthetic as an important factor in picture selection, we trained the pictures using elo-rating algorithm to assign rankings and integrate in our system as the one of the demonstration basis.
 ### Techniques
-領域           | 技術  |
+Areas           | Techniques  |
 --------------|:-----|
 Analytics| [Python](https://www.python.org/)|
 Front-end| Javascript, CSS, HTML|
